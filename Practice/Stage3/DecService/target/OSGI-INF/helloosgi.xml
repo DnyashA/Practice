@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<component name="helloosgi">
+    <implementation class="practice.decservice.HelloOSGi"/>
+    <service>
+        <provide interface="practice.decservice.SayHello"/>
+    </service>
+</component>
